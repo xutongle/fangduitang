@@ -1,0 +1,191 @@
+/* ==========
+   基本默认值
+   ========== */
+
+html {
+    color:#222;
+}
+
+/* 选中文字背景色 */
+::selection {
+    background-color:#b3d4fc;
+    text-shadow:none;
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+li {
+    list-style:none;
+}
+
+/* ==========
+   工具样式
+    ========= */
+
+.center-block {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.pull-right {
+    float:right !important;
+}
+
+.pull-left {
+    float:left !important;
+}
+
+.text-right {
+    text-align:right !important;
+}
+
+.text-left {
+    text-align:left !important;
+}
+
+.text-center {
+    text-align:center !important;
+}
+
+.hide {
+    display:none !important;
+}
+
+.show {
+    display:block !important;
+}
+
+.invisible {
+    visibility:hidden;
+}
+
+/* 隐藏文本 */
+.text-hide {
+    font:0/0 a;
+    color:transparent;
+    text-shadow:none;
+    background-color:transparent;
+    border:0;
+}
+
+/* before 可以防止 margin-top 与上方的 margin-bottom 重合*/
+.clearfix:before,
+.clearfix:after {
+    content:" ";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/* =============
+   浏览器更新提示
+   ============= */
+
+.browserupgrade {
+    margin:0;
+    padding:10px;
+    background:#ccc;
+}
+
+/* =============
+   自定义页面样式
+   ============= */
+
+body {
+    font-size:12px;
+    line-height:1.5;
+    background-color:#F1F2F3;
+}
+
+a {
+    color:#666;
+    text-decoration:none;
+}
+
+a:hover,
+a:active {
+    color:#0ae;
+    text-decoration:underline;
+}
+
+.mb-15 {
+    margin-bottom:15px;
+}
+
+.mb-25 {
+    margin-bottom:25px;
+}
+
+.mb-40 {
+    margin-bottom:40px;
+}
+
+.mt-20 {
+    margin-top:20px;
+}
+
+.pl-10 {
+    padding-left:10px;
+}
+
+.pr-5 {
+    padding-right:5px;
+}
+
+.pb-5 {
+    padding-bottom:5px;
+}
+
+.pb-10 {
+    padding-bottom:10px;
+}
+
+.bg-fb3 {
+    background:#fb3;
+}
+
+.bg-f46 {
+    background:#f46;
+}
+
+.bg-fff {
+    background:#fff;
+}
+
+.bl-0 {
+    border-left:0;
+}
+
+.w-1220 {
+    width:1220px;
+}
+
+.c-888 {
+    color:#888;
+}
+
+.c-444 {
+    color:#444;
+}
+
+.rel {
+    position:relative;
+}
+
+.block{
+    display:block;
+}
+
+.center {
+    text-align:center;
+}
+
+.ft-12 {
+    font-size:12px;
+}
