@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'Home\IndexController@index');
+Route::get('/admin', 'Admin\IndexController@index');
